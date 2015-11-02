@@ -2,7 +2,7 @@
 $link = "mysql:host=localhost;dbname=tpap";
 $user = "tpap";
 $pass = "ArVz.318.BE";
-
+error_reporting(E_ALL);
 $page = "<div >";
 try {
     $dbh = new PDO($link, $user,$pass);

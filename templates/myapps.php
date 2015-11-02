@@ -7,8 +7,10 @@
  */
 return "
 <body>
-    <div align='center' style='padding-top: 300px'>
-        <h1>Jos u izradi</h1>
+    <div class='col-sm-4'>
+        <div class='app'>
+
+        </div>
     </div>
 </body>
 

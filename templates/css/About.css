@@ -1,0 +1,24 @@
+h2.atitle
+{
+    font-family: serif;
+    font-style: italic;
+    float: none;
+}
+p 
+{
+    padding: 5%;
+}
+#profile
+{
+    float: left;
+}
+#aintro
+{
+
+}
+#about_profile_col
+{
+    height: 220px;
+    width: 17%;
+    background: url("pattern/bl_pat_1.png");
+}

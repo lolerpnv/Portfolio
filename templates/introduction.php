@@ -10,6 +10,7 @@ return "
 <!DOCTYPE html>
 <html>
 <head>
+
     <style>
     button.nav_black
     {
@@ -27,7 +28,10 @@ return "
 
     <meta charset='UTF-8'>
     <title id='nasl'> $PageData->tab_natpis</title>
-    <link rel='stylesheet' type='text/css' href='std_StyleSheet.css'>
+
+    <link  href='css/about.css' rel='stylesheet'>
+    <link  href='css/myapps.css' rel='stylesheet'>
+
     <!-- Latest compiled and minified CSS -->
     <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 
@@ -107,21 +111,21 @@ return "
         </script>
 </head>
 <body style='background-color: #f8f7ff' >
-    <nav class='navbar navbar-inverse'>
-  <div class='container-fluid'>
-    <div class='navbar-header'>
-      <a class='navbar-brand' href='http://www.etfos.unios.hr/~tpap/'>Toni Pap</a>
-    </div>
-        <div>
-          <ul class='nav navbar-nav'>
-            <li><button type='button' class='nav_black' onclick='setNav(0)'><p class='nav_black'>MyWall</p></button></li>
-            <li><button type='button' class='nav_black' onclick='setNav(1)'><p class='nav_black'>MyBlog</p></button></li>
-            <li><button type='button' class='nav_black' onclick='setNav(2)'><p class='nav_black' >MyApps</p></button></li>
-            <li><button type='button' class='nav_black' onclick='setNav(3)'><p class='nav_black' >AboutMe</p></button></li>
-          </ul>
-        </div>
+    <nav class='navbar navbar-inverse' >
+        <div class='container-fluid'>
+            <div class='navbar-header'>
+              <a class='navbar-brand' href='http://www.etfos.unios.hr/~tpap/'>Toni Pap</a>
+            </div>
+            <div>
+              <ul class='nav navbar-nav' style='padding-left: 30%'>
+                <li style='padding-left: 20px'><button type='button' class='nav_black' onclick='setNav(0)'><p class='nav_black'>MyWall</p></button></li>
+                <li style='padding-left: 20px'><button type='button' class='nav_black' onclick='setNav(1)'><p class='nav_black'>MyBlog</p></button></li>
+                <li style='padding-left: 20px'><button type='button' class='nav_black' onclick='setNav(2)'><p class='nav_black' >MyApps</p></button></li>
+                <li style='padding-left: 20px'><button type='button' class='nav_black' onclick='setNav(3)'><p class='nav_black' >AboutMe</p></button></li>
+              </ul>
+            </div>
         <a href='https://github.com/lolerpnv'><button type='button' class='btn btn-primary' style='float: right;background-color: transparent;border-color: transparent' ><p class='nav_black'>Git</p></button></a>
-      </div>
+        </div>
     </nav>
     <div class='content' id='wrapper' style='padding-left: 20px'>
 
