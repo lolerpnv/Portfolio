@@ -7,10 +7,8 @@
  */
 return "
 <body>
-    <div class='col-sm-4'>
-        <div class='app'>
+    <div class='col-sm-4' style='padding-left: 30%;border: solid;height: 150px;width: 25%'>
 
-        </div>
     </div>
 </body>
 
