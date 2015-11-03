@@ -7,7 +7,6 @@
 **/
 error_reporting( E_ALL );
 ini_set( "display_errors", 1 );
-$var = isset($_POST['type']);
 $row = "NECE";
 
 $user = "tpap";
@@ -56,5 +55,4 @@ $pass = "ArVz.318.BE";
     $dbh = null;
     $page = include_once("index.php");
 
-
-echo $page;
+echo "<a href='http://localhost/Portfolio/index.php'></a>";

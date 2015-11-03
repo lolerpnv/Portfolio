@@ -12,7 +12,7 @@ $var2 = isset($_GET['type']);
 $PageData = new stdClass();
 $PageData->tab_natpis = "MySite";
 $PageData->naslov = "Moja Stranica";
-$PageData->baselink = "http://etfos.unios.hr/index.php";
+$PageData->baselink = "http://localhost/Portfolio/index.php";
 $PageData->postlink = "http://localhost/Portfolio/postwall.php";
 $PageData->templates = "http://localhost/Portfolio/templates";
 

@@ -14,14 +14,14 @@ $page = '
     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Write on my wall</button>
     <div id="demo" class="collapse">
       <h4>Here you can write on my wall</h4>
-      <form class="form-group" role="form" style="width: 40%" action="http://localhost/Portfolio/postwall.php" method="post">
+      <form id="wallform" class="form-group" role="form" style="width: 40%" action="http://localhost/Portfolio/postwall.php" method="post">
         <div class="form-group">
           <label for="title">Title</label>
           <input type="text" name="naslov" class="form-control" id="title" placeholder="Title">
         </div>
         <div class="form-group">
           <label for="demo">Text</label>
-          <textarea name="tekst" rows="5" class="form-control" title="tekst"></textarea>
+          <textarea name="tekst" rows="5" class="form-control"></textarea>
         </div>
         <button type="submit"  class="btn btn-default">Publish</button>
       </form>
@@ -42,6 +42,5 @@ try {
 
 } catch (PDOException $e) {die("Unable to connect: " . $e->getMessage());}
 $page .= "</div>";
-
 
 return $page;
