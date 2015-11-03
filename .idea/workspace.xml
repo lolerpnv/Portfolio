@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="523269de-b76f-4cf4-8266-6cdb624f20d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/myapps.php" afterPath="$PROJECT_DIR$/templates/myapps.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postwall.php" afterPath="$PROJECT_DIR$/postwall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/wall.php" afterPath="$PROJECT_DIR$/templates/wall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="523269de-b76f-4cf4-8266-6cdb624f20d6" name="Default" comment="" />
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
