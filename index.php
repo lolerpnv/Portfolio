@@ -18,7 +18,16 @@ $PageData->templates = "http://localhost/Portfolio/templates";
 
 if($var) {
     $fileToLoad = $_GET['page'];
-    $page = include_once "templates/$fileToLoad.php";
+    switch ($fileToLoad)
+    {
+        case "postwall":
+            require "postwall.php";
+            postwall($_POST['naslov'],$_POST['tekst']);
+            $page = include_once "templates/introduction.php";
+            break;
+        default:
+            $page = include_once "templates/$fileToLoad.php";
+    }
 }
 else{
     $page = include_once "templates/introduction.php";
