@@ -18,6 +18,11 @@ $PageData->templates = "http://localhost/Portfolio/templates";
 
 if($var) {
     $fileToLoad = $_GET['page'];
+    $case = $fileToLoad=="wall"||
+            $fileToLoad=="blog"||
+            $fileToLoad=="myapps"||
+            $fileToLoad=="about";
+
     switch ($fileToLoad)
     {
         case "postwall":
@@ -25,8 +30,12 @@ if($var) {
             postwall($_POST['naslov'],$_POST['tekst']);
             $page = include_once "templates/introduction.php";
             break;
-        default:
+        case $case:
             $page = include_once "templates/$fileToLoad.php";
+            break;
+        default:
+            $page = include_once "templates/introduction.php";
+            break;
     }
 }
 else{
