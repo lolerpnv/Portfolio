@@ -37,10 +37,6 @@ function postwall($naslov,$tekst)
             $stmt->bindParam(':tek',$tekst);
             $stmt->execute();
             $dbh->commit();
-
-
-            $row = "gotovo";
-
         } catch (Exception $e) {
             $dbh->rollBack();
             echo "\nFailed: " . $e->getMessage();
